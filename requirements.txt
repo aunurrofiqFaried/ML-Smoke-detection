@@ -2,8 +2,5 @@ numpy
 joblib
 pandas
 seaborn
-matplotlib.pyplot
-sklearn.preprocessing
-sklearn.model_selection
-sklearn.ensemble
-sklearn.metrics
+matplotlib
+sklearn
