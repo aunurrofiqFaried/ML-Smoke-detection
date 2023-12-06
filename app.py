@@ -1,9 +1,9 @@
 import streamlit as st
-import joblib
+import joblib as jb
 import numpy as np
 
-rf = joblib.load('./smoke-detection-rf.joblib')
-sc = joblib.load('./standardscaler.joblib')
+rf = jb.load('./smoke-detection-rf.joblib')
+sc = jb.load('./standardscaler.joblib')
 
 st.header("Prediksi Kebakaran")
 temp = st.number_input('Temperature[C]', value=20.0)
