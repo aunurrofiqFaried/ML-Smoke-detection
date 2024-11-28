@@ -4,3 +4,4 @@ pandas
 numpy
 sklearn
 joblib
+pip==24.3.1
