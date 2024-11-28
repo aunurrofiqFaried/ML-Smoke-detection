@@ -1,6 +1,5 @@
 matplotlib
 scikit-learn
-pickle==4.0
 pandas
 numpy
 seaborn
