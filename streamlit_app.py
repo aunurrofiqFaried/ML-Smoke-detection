@@ -5,11 +5,14 @@ import numpy as np
 import joblib as jb
 import pickle
 
-rf = jb.load('./smoke-detection-rf.joblib')
-sc = jb.load('./standardscaler.joblib')
+# rf = jb.load('./smoke-detection-rf.joblib')
+# sc = jb.load('./standardscaler.joblib')
 
 with open('smoke-detection-rf.pkl', 'rb') as f:
       rf = pickle.load(f)
+
+with open('standardscaler.pkl', 'rb') as f:
+      sc = pickle.load(f)
 
 data = pd.read_csv('./smoke_detection.csv')
 
