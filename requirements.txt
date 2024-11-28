@@ -4,5 +4,5 @@ numpy
 scikit-learn
 streamlit
 seaborn
-pickle
+pickle==4.0
 joblib
