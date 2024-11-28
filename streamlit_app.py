@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import pickle
+import sklearn
 
 # rf = jb.load('./smoke-detection-rf.joblib')
 # sc = jb.load('./standardscaler.joblib')
