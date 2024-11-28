@@ -2,16 +2,16 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-import pickle
+import joblib as jb
 
-# rf = jb.load('./smoke-detection-rf.joblib')
-# sc = jb.load('./standardscaler.joblib')
+rf = jb.load('./smoke-detection-rf.joblib')
+sc = jb.load('./standardscaler.joblib')
 
-with open('smoke-detection-rf.pkl', 'rb') as f:
-      rf = pickle.load(f)
+# with open('smoke-detection-rf.pkl', 'rb') as f:
+#       rf = pickle.load(f)
 
-with open('standardscaler.pkl', 'rb') as f:
-      sc = pickle.load(f)
+# with open('standardscaler.pkl', 'rb') as f:
+#       sc = pickle.load(f)
 
 data = pd.read_csv('./smoke_detection.csv')
 
