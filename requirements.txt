@@ -3,3 +3,4 @@ seaborn
 joblib
 pip
 matplotlib
+pandas
