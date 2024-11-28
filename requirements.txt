@@ -5,5 +5,4 @@ scikit-learn
 streamlit
 seaborn
 pickle
-pip
-python==3.10
+joblib
