@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import joblib as jb
 
-rf = jb.load('path/to/smoke-detection-rf.joblib')
-sc = jb.load('path/to/standardscaler.joblib')
+rf = jb.load('./smoke-detection-rf.joblib')
+sc = jb.load('./standardscaler.joblib')
 
-data = pd.read_csv('path/to/smoke_detection.csv')
+data = pd.read_csv('./smoke_detection.csv')
 
 option = st.sidebar.selectbox(
       'PILIH MENU :',
