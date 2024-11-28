@@ -4,5 +4,5 @@ numpy
 scikit-learn
 streamlit
 seaborn
-joblib
 pickle
+pip
