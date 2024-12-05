@@ -49,7 +49,7 @@ elif option == 'Prediksi':
       col1, col2, col3 = st.columns(3)
 
       with col1:
-            temp = st.number_input('Temperature [C]', value=20.0, min_value=-10.0, max_value=50.0, help="Masukkan suhu dalam derajat Celcius.")
+            temp = st.slider_input('Temperature [C]', value=20.0, min_value=-10.0, max_value=50.0, help="Masukkan suhu dalam derajat Celcius.")
             hum = st.number_input('Humidity [%]', value=57.36, min_value=0.0, max_value=100.0, help="Masukkan kelembaban relatif dalam persen.")
       
       with col2:
