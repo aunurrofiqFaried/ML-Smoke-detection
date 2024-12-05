@@ -23,7 +23,7 @@ option = st.sidebar.selectbox(
 if option == 'Deskripsi' or option == '' :
       st.write("# Halaman Deskripsi")
       st.write("Fitur prediksi kebakaran dalam aplikasi ini dirancang untuk membantu menganalisis kemungkinan terjadinya kebakaran berdasarkan data yang dihasilkan oleh berbagai sensor lingkungan. Sensor-sensor ini mencakup suhu, kelembaban, tekanan atmosfer, gas kimia seperti H2 dan ethanol, serta indikator gas seperti TVOC (Total Volatile Organic Compounds) dan eCO2 (equivalent Carbon Dioxide). Model machine learning berbasis Random Forest yang telah dilatih digunakan untuk memprediksi apakah alarm kebakaran harus aktif (ON) atau tidak (OFF). Input yang diberikan pengguna akan melalui proses normalisasi menggunakan StandardScaler untuk memastikan prediksi yang akurat. Model ini memberikan notifikasi dini untuk potensi kebakaran, sehingga dapat membantu dalam pengambilan keputusan cepat untuk mitigasi bahaya.")
-      st.write("Narmin Humbatli")
+      st.write("Deep Contractor")
 elif option == 'Dataset' :
       st.write("# Halaman Dataset")
       st.write("### Tabel Dataset")
